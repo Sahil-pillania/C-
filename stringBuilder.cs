@@ -6,11 +6,14 @@ using System.Threading.Tasks;
 
 namespace advanced
 {
-    class Program
+    class stringBuilder
     {
         static void Main(string[] args)
         {
-
+            StringBuilder sbstr = new StringBuilder(15);
+            sbstr.Append("Hello, Sahil");
+            Console.WriteLine(sbstr);
+            Console.ReadLine();
         }
     }
 }
